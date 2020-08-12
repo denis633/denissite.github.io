@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1{
+
+    background-color: darkcyan;
+    text-align: center;
+}
+
+.frame{
+    width: 300px;
+    height: 230px;  
+    background-color: blue;
+    margin: 20px;  
+    transition: all 0.5 ease;
+}
+
+.frame:hover{
+    transform: rotate(3eg) scale(1.07);
+    box-shadow: 0 0 20px 1px chocolate;
+}
+
+.frameimg{
+    width: 300px;
+    height: 200px;
+
+
+    
+}
+
+.frame p{
+    text-align: center;
+    line-height: 30px;
+}
+
+.photo1{
+    background-image: url(..//img/okean-gorizont-nebo-oblaka-dal-korabli-cvet-krasota.svg);
+    background-position:center;
+    background-size: cover;
+}
+
+.photo2{
+    background-image: url(..//img/tajland.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+.photo3{
+    background-image: url(..//img/water.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+.photo4{
+    background-image: url(..//img/vozvraschenie-navsegda.orig.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+.photo5{
+    background-image: url(..//img/2989067-trees-bridge-garden___mixed-wallpapers.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+.photo6{
+    background-image: url(..//img/full-hd.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+.galery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
